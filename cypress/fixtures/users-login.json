@@ -1,0 +1,34 @@
+{
+    "success": {
+        "name": "Ciro",
+        "email": "ciroveiga.braz@gmail.com",
+        "password": "@Pretaporter0"
+    },
+    "invpass": {
+        "email": "ciroveiga.braz@gmail.com",
+        "password": "@876Pret38"
+    },
+    "email404": {
+        "email": "ciroveiga.braz@404.com",
+        "password": "@Pretaporter0"
+    },
+    "shortpass": [
+        "1",
+        "12",
+        "123",
+        "1234",
+        "12345"
+    ],
+    "invemails": [
+        "ciroveiga$gmail.com",
+        "ciroveiga.com.br",
+        "gmail.com",
+        "@gmail.com.br",
+        "veiga",
+        "123456",
+        "@yahoo",
+        "@!@!@!$"
+    ]
+
+
+}
