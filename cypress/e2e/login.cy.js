@@ -8,35 +8,12 @@ describe('login', () => {
 
 	context('quando submeto o formulário', () => {
 		it('deve logar com sucesso', () => {
-
-			// Dado que eu tenho um NOVO usuário
 			const user = data.success
 
-			cy.task('removeUser', user.email)
-				.then(function (result) {
-					cy.log(result)
+			cy.createUser(user)
 
-				})
-
-			cy.request({
-				method: 'POST',
-				url: 'http://localhost:3333/users',
-				body: user
-			}).then(function (response) {
-				expect(response.status).to.eq(201)
-			})
-
-			// Quando submeto o form de login com esse usuário
 			loginPage.submit(user.email, user.password)
-
-
-			//Então devo ser logado com sucesso
 			shaversPage.header.userShouldBeLoggedIn(user.name)
-
-
-
-
-
 
 		})
 
