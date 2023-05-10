@@ -2,7 +2,8 @@
     "success": {
         "name": "Ciro",
         "email": "ciroveiga.braz@gmail.com",
-        "password": "@Pretaporter0"
+        "password": "@Pretaporter0",
+        "is_shaver": false
     },
     "invpass": {
         "email": "ciroveiga.braz@gmail.com",
@@ -29,6 +30,4 @@
         "@yahoo",
         "@!@!@!$"
     ]
-
-
 }
